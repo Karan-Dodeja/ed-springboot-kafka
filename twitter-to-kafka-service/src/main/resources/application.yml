@@ -1,0 +1,10 @@
+twitter-to-kafka-service:
+  # get tweets from twitter with these keywords
+  twitter-keywords:
+    - Java
+    - Microservices
+    - Spring
+    - Kafka
+    - Elasticsearch
+  welcome-message:
+    Hello Microservices

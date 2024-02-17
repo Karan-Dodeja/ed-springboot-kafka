@@ -1,0 +1,83 @@
+2024-02-18 04:26:39.063 INFO  c.m.d.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.10 with PID 15172 (C:\Users\User\Downloads\microservices-demo\microservices-demo\twitter-to-kafka-service\target\classes started by User in C:\Users\User\Downloads\microservices-demo\microservices-demo)
+2024-02-18 04:26:39.071 INFO  c.m.d.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-02-18 04:26:40.934 INFO  c.m.d.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 3.171 seconds (process running for 4.793)
+2024-02-18 04:26:40.948 INFO  c.m.d.t.k.s.TwitterToKafkaServiceApplication - Application starts...
+2024-02-18 04:26:40.953 INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-02-18 04:26:41.016 ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.NullPointerException: Cannot invoke "java.util.List.toArray(Object[])" because the return value of "com.microservice.demo.to.kafka.service.config.TwitterToKafkaServiceConfigData.getTwitterKeywords()" is null
+	at com.microservice.demo.to.kafka.service.TwitterToKafkaServiceApplication.run(TwitterToKafkaServiceApplication.java:33)
+	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:790)
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:83)
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60)
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:88)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:798)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:789)
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:774)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:341)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.microservice.demo.to.kafka.service.TwitterToKafkaServiceApplication.main(TwitterToKafkaServiceApplication.java:26)
+2024-02-18 04:27:18.186 INFO  c.m.d.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.10 with PID 8108 (C:\Users\User\Downloads\microservices-demo\microservices-demo\twitter-to-kafka-service\target\classes started by User in C:\Users\User\Downloads\microservices-demo\microservices-demo)
+2024-02-18 04:27:18.191 INFO  c.m.d.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-02-18 04:27:19.713 INFO  c.m.d.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 2.408 seconds (process running for 3.728)
+2024-02-18 04:27:19.721 INFO  c.m.d.t.k.s.TwitterToKafkaServiceApplication - Application starts...
+2024-02-18 04:27:19.726 INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-02-18 04:27:19.777 ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.NullPointerException: Cannot invoke "java.util.List.toArray(Object[])" because the return value of "com.microservice.demo.to.kafka.service.config.TwitterToKafkaServiceConfigData.getTwitterKeywords()" is null
+	at com.microservice.demo.to.kafka.service.TwitterToKafkaServiceApplication.run(TwitterToKafkaServiceApplication.java:33)
+	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:790)
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:83)
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60)
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:88)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:798)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:789)
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:774)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:341)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.microservice.demo.to.kafka.service.TwitterToKafkaServiceApplication.main(TwitterToKafkaServiceApplication.java:26)
+2024-02-18 04:33:30.506 INFO  c.m.d.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.10 with PID 13536 (C:\Users\User\Downloads\microservices-demo\microservices-demo\twitter-to-kafka-service\target\classes started by User in C:\Users\User\Downloads\microservices-demo\microservices-demo)
+2024-02-18 04:33:30.511 INFO  c.m.d.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-02-18 04:33:31.966 INFO  c.m.d.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 2.406 seconds (process running for 3.607)
+2024-02-18 04:33:31.975 INFO  c.m.d.t.k.s.TwitterToKafkaServiceApplication - Application starts...
+2024-02-18 04:33:31.976 INFO  c.m.d.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2024-02-18 04:36:04.499 INFO  c.m.d.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.10 with PID 13884 (C:\Users\User\Downloads\microservices-demo\microservices-demo\twitter-to-kafka-service\target\classes started by User in C:\Users\User\Downloads\microservices-demo\microservices-demo)
+2024-02-18 04:36:04.505 INFO  c.m.d.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-02-18 04:36:06.041 INFO  c.m.d.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 2.566 seconds (process running for 3.893)
+2024-02-18 04:36:06.050 INFO  c.m.d.t.k.s.TwitterToKafkaServiceApplication - Application starts...
+2024-02-18 04:36:06.050 INFO  c.m.d.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2024-02-18 04:36:06.051 INFO  c.m.d.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices
+2024-02-18 04:37:18.560 INFO  c.m.d.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.10 with PID 3840 (C:\Users\User\Downloads\microservices-demo\microservices-demo\twitter-to-kafka-service\target\classes started by User in C:\Users\User\Downloads\microservices-demo\microservices-demo)
+2024-02-18 04:37:18.566 INFO  c.m.d.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-02-18 04:37:20.517 INFO  c.m.d.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 2.966 seconds (process running for 4.494)
+2024-02-18 04:37:20.534 INFO  c.m.d.t.k.s.TwitterToKafkaServiceApplication - Application starts...
+2024-02-18 04:37:20.534 INFO  c.m.d.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2024-02-18 04:37:20.535 INFO  c.m.d.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices
+2024-02-18 04:37:50.741 INFO  c.m.d.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.10 with PID 12556 (C:\Users\User\Downloads\microservices-demo\microservices-demo\twitter-to-kafka-service\target\classes started by User in C:\Users\User\Downloads\microservices-demo\microservices-demo)
+2024-02-18 04:37:50.746 INFO  c.m.d.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-02-18 04:37:52.688 INFO  c.m.d.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 3.007 seconds (process running for 4.364)
+2024-02-18 04:37:52.699 INFO  c.m.d.t.k.s.TwitterToKafkaServiceApplication - Application starts...
+2024-02-18 04:37:52.699 INFO  c.m.d.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2024-02-18 04:37:52.700 INFO  c.m.d.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices
